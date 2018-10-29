@@ -8,7 +8,8 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@storybook/react": "^4.0.0",
-    "babel-loader": "^8.0.4"
+    "babel-loader": "^8.0.4",
+    "storybook-addon-jsx": "^5.4.0"
   },
   "dependencies": {
     "react": "^16.6.0",
