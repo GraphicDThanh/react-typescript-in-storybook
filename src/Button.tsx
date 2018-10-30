@@ -2,9 +2,15 @@ import * as React from 'react';
 import './Button.css';
 
 export interface Props {
+  /** This dictates what the button content */
   children: React.ReactNode;
+  /** This dictates what the button doing when clicked */
   onClick: () => void;
-  disabled?: boolean;
+  /**
+   * Disable on click
+   * @default false
+   * */
+  disabled: boolean;
 }
 
 const noop = () => {};
